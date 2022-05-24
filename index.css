@@ -19,7 +19,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/* border: 0; */
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,6 @@ table {
 }
 * {
     box-sizing: border-box;
-    border:1px solid grey;
     max-width: 100%;
 }
 html {
@@ -62,7 +61,7 @@ body {
 }
 h1 {
     font-family: 'Chelsea Market', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 section {
     padding: 4% 0;
@@ -80,24 +79,63 @@ nav a {
     border-radius: 10px;
     color: white;
 }
-header #planvisit {
+.planvisit {
     margin-left: 10%;
     background-color: #FF764E;
 }
-header #learnpark {
+.learnpark {
     margin: 0 20%;
     background-color: #5ED3EB;
 }
-header #getinvolved {
+.getinvolved {
     margin-right: 10%;
     background-color: #FFCD69;
 }
 
-.top img.round {
+
+.top {
+    position: relative;
+}
+.text-container, .image-container {
     display: inline-block;
 }
-.image-container .round{
-    width: 25%;
+.image-container {
+    width: 30%;
+}
+.round{
     border-radius: 50%;
+}
+.text-container {
+    width: 60%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 2;
+    position: absolute;
+    top: 150px;
+}
+
+.text-container2 {
+    background-color: #DDB9A3;
+    color: white;
+    padding:3%
+}
+
+.campfire, .camper {
+    width: 35%;
+    margin:6% auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer-image {
+    height: 50vh;
+    position: relative;
+    width: 100%;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
 
